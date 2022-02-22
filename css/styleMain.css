@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Barlow:wght@100;200;300;400;500;600;700&family=Bellefair&display=swap');
+body {
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    text-decoration: none;
+    color: #000;
+}
+
+.head-cont {
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media (max-width:1200px) {
+    .head-cont {
+        width: 100%;
+    }
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.04) !important;
+    backdrop-filter: blur(81.5485px) !important;
+}
+
+.wprd {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: white !important;
+    margin-right: 90px;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.logo {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+    padding-right: 53px;
+    font-family: 'Bellefair';
+}
+
+.line {
+    width: 200px;
+    height: 1px;
+    background-color: white;
+    opacity: .25;
+}
+
+@media (max-width:800px) {
+    .line {
+        display: none;
+    }
+}
+
+.underline {
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+}
+
+#BOX {
+    position: absolute;
+    top: 350px;
+}
+
+.learn {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 4.725px;
+    color: #D0D6F9;
+}
+
+.quan {
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.text {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    color: #D0D6F9;
+}
+
+@media only screen and (max-width: 1920px) {
+    body {
+        background-image: url(../media/mainbackground.png);
+    }
+    .learn {
+        font-size: 28px;
+    }
+    .quan {
+        font-size: 150px;
+    }
+    .text {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-image: url(../media/maintablet.png);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #BOX {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(../media/mainphoneback.png);
+    }
+}
+
+@media only screen and (max-width: 672px) {
+    #BOX {
+        left: 0;
+    }
+    .learn {
+        font-size: 16px;
+        text-align: center;
+    }
+    .quan {
+        font-size: 80px;
+        text-align: center;
+    }
+    .text {
+        font-size: 15px;
+        text-align: center;
+    }
+}

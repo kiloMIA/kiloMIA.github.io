@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Barlow:wght@100;200;300;400;500;600;700&family=Bellefair&display=swap');
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#mainpic {
+    background-image: url(../media/starsabout.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    height: 367px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #000;
+}
+
+.head-cont {
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media (max-width:1200px) {
+    .head-cont {
+        width: 100%;
+    }
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.04) !important;
+    backdrop-filter: blur(81.5485px) !important;
+}
+
+.wprd {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: white !important;
+    margin-right: 90px;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.logo {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+    padding-right: 53px;
+    font-family: 'Bellefair';
+}
+
+.line {
+    width: 200px;
+    height: 1px;
+    background-color: white;
+    opacity: .25;
+}
+
+@media (max-width:800px) {
+    .line {
+        display: none;
+    }
+}
+
+.underline {
+    width: 96px;
+    height: 2px;
+    background-color: #fff;
+}
+
+
+/*nfksdjfbkdf*/
+
+.some {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#namebox {
+    height: 41px;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #C4C4C4 100%);
+    position: absolute;
+    bottom: 0;
+}
+
+.planet-info {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#preview {
+    background-image: url(../media/starsgallerypreview.png);
+    width: 100%;
+    height: 369px;
+    transition: 0.2s;
+    margin-top: 90px;
+    position: relative;
+}
+
+.gallerydec {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 71.15%, #9A9A9A 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#tabbb {
+    margin-top: 50px;
+}
+
+#preview:hover {
+    opacity: 0.5;
+}
+
+#namemm {
+    position: absolute;
+    bottom: 0;
+}
+
+#preview p {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+#pills-tabContent {
+    width: 100%;
+}
+
+
+/*GALLERY*/
+
+.modal-header {
+    position: relative;
+}
+
+.modal-header button i {
+    color: #000000;
+    size: 40px;
+    float: right;
+}
+
+.modal-header button i:hover {
+    color: #858585;
+}
+
+.btn {
+    align-items: center;
+}
+
+.btn h4 {
+    font-family: Barlow;
+    color: rgb(255, 255, 255);
+    transition: opacity 0.3s;
+}
+
+.btn h4:hover {
+    color: rgb(160, 160, 160);
+}
+
+#galleryContainer {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+#gridWithPhotos {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.col-lg-4 img {
+    transition: 0.2s;
+    filter: grayscale(1) brightness(0.5);
+}
+
+.col-lg-4 img:hover {
+    filter: grayscale(0) brightness(1);
+}
+
+.container h3 {
+    font-family: Barlow;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 7px;
+}
+
+.col-lg p {
+    font-family: Barlow;
+    font-style: normal;
+    color: black;
+    font-weight: normal;
+}
+
+.container-md {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.container-md hr {
+    background-color: white;
+}
+
+
+/*TABS*/
+
+.nav-item a {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: rgba(255, 255, 255, 0.473);
+}
+
+.nav-item a :active {
+    color: white;
+}
+
+.nav-item a:hover,
+.nav-item a.active {
+    color: rgb(255, 255, 255);
+}
+
+.nav-item a:hover {
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+}
+
+.tab {
+    margin-right: 20px;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+.main-name {
+    font-family: "Bellefair";
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.text {
+    font-family: "Barlow";
+    font-weight: normal;
+    line-height: 22px;
+    height: 237px;
+    margin: 0;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+}
+
+.breadcrumb .breadcrumb-item {
+    vertical-align: top
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    position: relative;
+}
+
+.breadcrumb li a:hover {
+    color: rgb(212, 168, 85);
+}
+
+@media only screen and (max-width: 1920px) {
+    #preview p {
+        font-size: 48px;
+    }
+    .text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:1200px) {
+    #nameof {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .col-lg-4 img {
+        filter: grayscale(0) brightness(1);
+    }
+    .col-lg p {
+        width: 90%;
+        margin-left: 10px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .text {
+        font-size: 25px;
+        line-height: 29px;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .col-lg p {
+        font-size: 24px;
+    }
+    #preview p {
+        font-size: 36px;
+    }
+    .text {
+        font-size: 28px;
+    }
+}
