@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Barlow:wght@100;200;300;400;500;600;700&family=Bellefair&display=swap');
+
+body {
+    background-image: url(../media/sky_1920.jpg);
+    background-size: cover;
+
+}
+
+/*                            HEADER                      */
+.logo {
+    text-decoration: none;
+    color: #000;
+}
+
+.head-cont {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.nav-item a {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: rgba(255, 255, 255, 0.473);
+}
+
+
+.navbar {
+    background: rgba(0, 0, 0, 0.04) !important;
+    backdrop-filter: blur(81.5485px) !important;
+}
+
+.wprd {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: rgb(255, 255, 255) !important;
+    margin-right: 90px;
+}
+
+.wprd:hover {
+    color: #cacaca !important;
+    transition: 0.25s;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.logo {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+    padding-right: 53px;
+    font-family: 'Bellefair';
+}
+
+.line {
+    width: 200px;
+    height: 1px;
+    background-color: white;
+    opacity: .25;
+}
+
+.navbar-nav {
+    position: relative;
+}
+
+.underline {
+    position: absolute;
+    width: 125px;
+    height: 3px;
+    background-color: white;
+    bottom: -22px;
+    left: 70%;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*                 MAIN                         */
+
+.main-info {
+    margin-bottom: 50px;
+}
+
+/*.main-par{
+    margin-bottom: 20px;
+}*/
+.underline {
+    width: 110px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.asteroidsInfo {
+    margin-bottom: -20px;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    margin-left: 30px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    font-family: 'Bellefair';
+    color: #FFFFFF
+}
+
+.vert-line {
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+/*                BUTTONS             */
+.btn-secondary {
+    margin-top: 10px;
+    width: 320px;
+    color: #ffffff;
+    background-color: #6c757d59;
+    border-color: #6c757db0;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #6c757d59;
+    border-color: #6c757db0;
+    margin-top: 10px;
+    width: 320px;
+}
+
+.btn-check:focus+.btn-secondary,
+.btn-secondary:focus {
+    color: #fff;
+    background-color: #5c636a33;
+    border-color: #565e642e;
+    box-shadow: 0 0 0 0.25rem rgb(20 20 20 / 0%);
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff14;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    color: white;
+}
+/*                                                
+
+/* /////////////////////////////////////////////// */
+/* TABS                                            */
+.main-menu {
+    overflow: hidden;
+}
+
+.tablinks {
+    text-decoration: none;
+    color: white;
+    /*margin-right: 30px; */
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 2.7px;
+    font-family: 'Barlow Condensed';
+    color: #D0D6F9;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.tabcontent {
+    font-family: "Barlow";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    width: 444px;
+    height: 237px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 25px;
+    display: none;
+    margin-bottom: 250px;
+
+}
+.main-name{
+    font-family: "Bellefair";
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.main-par{
+    font-family: "Barlow";
+    font-weight: normal;
+    line-height: 22px;
+    height: 237px;
+    margin: 0;
+    margin-bottom: 25px;
+    color: white;
+}
+.tab button.active {
+    background-color: rgba(204, 204, 204, 0);
+}
+
+.tab button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+/*    ///// */
+.divider {
+    border-top: 1px solid white;
+}
+
+h6 {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.col-lg-4>p,
+.col-lg-4>a {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #535353;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.col-lg-4>a:hover {
+    color: #b8b8b8;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+}
+
+
+
+
+
+@media (max-width:1440px) {
+    .main-division {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:1024px) {
+    .btn-secondary {
+        margin-top: 20px;
+        width: 280px;
+    }
+
+    .btn-primary {
+        margin-top: 20px;
+        width: 280px;
+    }
+
+    .carousel {
+        margin-top: 20px;
+    }
+
+    .head-cont {
+        width: 1000px;
+    }
+
+    .main-par {
+        padding-right: 100px;
+        /*margin-bottom: 20px;*/
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .btn-secondary {
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    .btn-primary {
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    .head-cont {
+        width: 700px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .main-division {
+        margin-left: 20px;
+    }
+
+    .btn-secondary {
+        margin-top: 20px;
+        width: 200px;
+        margin-left: 20px;
+    }
+
+    .btn-primary {
+        margin-top: 20px;
+        width: 200px;
+        margin-left: 20px;
+    }
+
+    .head-cont {
+        width: 400px;
+    }
+
+    .carousel {
+        margin-left: 20px;
+    }
+
+    /* .main-par{
+        margin-bottom: 20px;
+    }*/
+}
+
+@media (max-width:375px) {
+    .main-division {
+        margin-left: 20px;
+    }
+
+    .btn-secondary {
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    .btn-primary {
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    .head-cont {
+        width: 350px;
+    }
+
+    /* .main-par{
+        margin-bottom: 20px;
+    }*/
+
+}
+
+@media (max-width:320px) {
+    .main-division {
+        margin-left: 20px;
+    }
+
+    .btn-secondary {
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    .btn-primary {
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    .head-cont {
+        width: 320px;
+    }
+
+    /* .main-par{
+        margin-bottom: 20px;
+    }*/
+
+}

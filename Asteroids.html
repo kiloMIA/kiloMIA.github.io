@@ -46,21 +46,21 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto ">
-                        <li class="nav-item active">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active" onmouseover="homemove()" onmouseout="homenotmove()">
                             <a class="nav-link wprd" href="index.html">HOME</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" onmouseover="planmove()" onmouseout="plannotmove()">
                             <a class="nav-link wprd" href="Planets.html">PLANETS</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item" onmouseover="starsmove()" onmouseout="starsnotmove()">
                             <a class="nav-link wprd" href="Stars.html">STARS</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link wprd" href="Asteroids.html">ASTEROIDS</a>
-                            <div class="underline"></div>
                         </li>
+                        <div class="underline" id="animation"></div>
                     </ul>
                 </div>
             </nav>
@@ -68,7 +68,7 @@
     </header>
     <main>
         <div class="main-info">
-            <div class="asteroids-info">ASTEROIDS<i class="fas fa-meteor"></i></div>
+            <div class="asteroidsInfo">ASTEROIDS<i class="fas fa-meteor"></i></div>
             <div class="vert-line"></div>
         </div>
 
@@ -240,7 +240,8 @@
                 </div>
             </div>
         </div>
-        
+        </div>
+
     </main>
     <footer class="page-footer">
         <div class="container">
