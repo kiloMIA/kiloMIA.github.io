@@ -113,6 +113,9 @@ body {
     body {
         background-image: url(../media/maintablet.png);
     }
+    .underline{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 768px) {

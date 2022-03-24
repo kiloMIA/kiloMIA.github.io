@@ -324,6 +324,9 @@ body {
         font-size: 25px;
         line-height: 29px;
     }
+    .underline{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 412px) {
